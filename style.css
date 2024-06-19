@@ -10,7 +10,6 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  /* align-content: space-between; */
   background-color: #131e25;
   position: relative;
 }
@@ -193,14 +192,12 @@ button:hover {
   cursor: pointer;
   width: 6rem;
   text-align: center;
-  
-
 }
 
-.up{
-    color: black;
-    text-decoration:none;
+.up {
+  color: black;
+  text-decoration: none;
 }
-.up:hover{
-    font-size: 1.3rem;
+.up:hover {
+  font-size: 1.3rem;
 }

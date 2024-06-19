@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+.container {
+  max-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-content: space-between; */
+  background-color: #131E25;
+}
+.title {
+  text-align: center;
+  padding: 20px;
+  font-family: "Bungee Shade", sans-serif;
+  font-size: 1.5rem;
+  text-shadow: 3px 3px 10px rgb(0, 0, 0);
+  color: rgb(218, 222, 107);
+}
+.links {
+  position: sticky;
+  top: 0;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 20px;
+}
+li {
+  border: 2px solid grey;
+  padding: 15px;
+  background-color: bisque;
+  border-radius: 15px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30rem;
+}
+h2 {
+  font-family: "Rampart One", sans-serif;
+  color: bisque;
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.My-project {
+  display: flex;
+  justify-content: center;
+  height: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  color: rgb(218, 222, 107);
+}
+.title2 {
+  padding: 10px;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+img {
+  width: 400px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  box-shadow: 6px 6px 10px  rgb(218, 222, 107);
+}
+/* img:hover{
+    : 1.5;
+} */
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.contactme {
+  display: flex;
+  justify-content: center;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+
+.contactme {
+  padding: 5px;
+}
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  color: rgb(218, 222, 107);
+  text-decoration: underline;
+}
+
+.icons {
+  display: flex;
+  gap: 40px;
+}
+a {
+  color: bisque;
+}
+
+h4 {
+  text-align: center;
+  color: rgb(218, 222, 107);
+}
+input {
+  width: 10rem;
+}
